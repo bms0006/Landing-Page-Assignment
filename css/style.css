@@ -1,0 +1,116 @@
+.banner,
+.footer{
+    color:white;
+    background-color: #1f2937;
+}
+
+.top-row{
+    display:flex;
+    justify-content: center;
+}
+
+.top-row h3{
+    flex:1;
+    text-align: center;   
+}
+
+.top-row ul{
+    display:flex;
+    list-style-type: none;
+    flex:1
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    margin-left:20px;
+}
+
+.banner .container{
+    padding-top: 30px;
+    padding-bottom:30px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.img-row-text{
+    flex:1;
+    max-width: 300px;
+    margin:0%;
+    align-content: center;
+}
+
+.img-row-text h1{
+    size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+
+.img-row-text button{
+    background-color: #3882f6;
+    color:white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    font-weight: bold;
+    max-width: 100px;
+}
+
+img{
+    width:450px;
+    height: auto;
+    flex:1
+}
+
+.random-info{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.random-info h2{
+    text-align: center;
+}
+
+.random-info .container{
+    display:flex;
+    justify-content: center;
+}
+
+.container .info{
+    width:150px;
+    margin-left: 25px;
+}
+
+.info img{
+    border: 5px solid aqua;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Testimonials{
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Testimonials p{
+    font-style:italic;
+    font-size:36px;
+    color:#1f2937;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right:auto
+}
+
+.customer-quote{
+    text-align: right;
+    color:black;
+    font-size:16px;
+    display:block;
+    font-weight:800
+}
